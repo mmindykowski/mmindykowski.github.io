@@ -1,0 +1,94 @@
+.redbg {
+    background-color: red;
+  }
+  
+  .greenbg {
+    background-color: green;
+  }
+  
+  #title {
+  /*   margin: 10px 10px; */
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  input {
+    width: 75px;
+  }
+  
+  .zajecia-dodatkowe {
+    width: 175px;
+  }
+  
+  div[id^="uczen"] {
+    margin: 20px 18px;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  input.matematyka {
+    position: absolute;
+    top: 0;
+    right: 1140px;
+  }
+  
+  input.polski {
+    position: absolute;
+    top: 0;
+    right: 1025px;
+  }
+  
+  input.biologia {
+    position: absolute;
+    top: 0;
+    right: 905px;
+  }
+  
+  input.geografia {
+    position: absolute;
+    top: 0;
+    right: 775px;
+  }
+  
+  input.fizyka {
+    position: absolute;
+    top: 0;
+    right: 650px;
+  }
+  
+  input.chemia {
+    position: absolute;
+    top: 0;
+    right: 535px;
+  }
+  
+  input.informatyka {
+    position: absolute;
+    top: 0;
+    right: 400px;
+  }
+  
+  input.zajecia-dodatkowe {
+    position: absolute;
+    top: 0;
+    right: 160px;
+  }
+  
+  #oblicz {
+    width: 150px;
+    padding: 15px 28px;
+    background-color: black;
+    color: #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5;
+  }
+  
+  .srednia {
+    display: inline-flex;
+  }
