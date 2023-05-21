@@ -1,0 +1,55 @@
+.redbg {
+    background-color: red;
+  }
+  
+  span {
+    margin: 3px;
+  }
+  
+  #title {
+    display: flex;
+    width: 95vw;
+    justify-content: space-between;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    background-color: black;
+    color: #fff;
+  }
+  
+  div[id^="pracownik"] {
+    display: flex;
+    width: 95vw;
+    justify-content: space-between;
+    margin: 5px 10px;
+    border: 1px solid;
+    position: relative;
+  }
+  
+  .czas {
+    position: absolute;
+    left: 420px;
+    top: 0px;
+  }
+  
+  .stawka {
+    position: absolute;
+    right: 420px;
+    top: 0;
+  }
+  
+  #oblicz {
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px 18px;
+    border: 0;
+    border-radius: 25px;
+    text-transform: uppercase;
+  }
+  
+  #najlepsi-pracownicy {
+    width: 90vw;
+    display: flex;
+  }
+  
